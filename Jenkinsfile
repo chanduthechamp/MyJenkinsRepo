@@ -23,6 +23,7 @@ pipeline {
     stage('My Sanity Phase') {
       steps {
         build 'Test_Join1'
+        build 'MJ2'
       }
     }
   }
