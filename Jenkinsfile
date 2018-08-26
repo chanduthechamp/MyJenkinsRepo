@@ -17,7 +17,7 @@ pipeline {
     }
     stage('Confirmation Phase') {
       steps {
-        input(message: 'Click "Proceed" to Continue', ok: 'Proceed', submitter: 'chandu,sekhar')
+        input(message: 'Click "Proceed" to Continue', ok: 'Proceed')
       }
     }
     stage('My Sanity Phase') {
